@@ -7,6 +7,21 @@
   pointer-events: none;
 }
 
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.highlight {
+  border: 2px solid red;
+  width: 50%;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
