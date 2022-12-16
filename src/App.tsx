@@ -30,7 +30,6 @@ function App() {
   };
 
   const handleSetTimesList = (data: any) => {
-    
     setTimes(data);
   }
 
